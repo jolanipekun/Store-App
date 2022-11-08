@@ -1,0 +1,19 @@
+#1. A React component is basically a function that can be referenced in another file.
+
+#2. Let say we have a piece of data string const name = 'john'; and we
+------want to render this; all we have to do is wrap it in curly braces {name}
+----i.e const try = () => {
+    const name = 'John';
+    return <h1> {name} </h1>
+}
+
+#3. A dynamic way to pass down data into our component is through props, and you initate the call from the App.js
+---where the component is being represented and you recieve it down in the component through prop.name for example.#
+
+#4. My assessment, everything in React is a component.
+
+#5. Conditional rendering in React
+--Again, my own opinion, boolean data structures like True / False, enables us to conditionally render items based on some conditions
+--almost like toggle.
+==This is also where we need to know about state, "State Management" 
+    ===> That how we use hooks for conditional rendering.
